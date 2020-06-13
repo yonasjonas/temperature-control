@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+
+nav.navbar {
+    width: 100%;
+}
+.bg-light {
+    
+}
+.container-fluid {
+    padding: 0!important;
+}
+.footer {
+    background: #0a0950;
+    min-height: 200px;
+}
+.footer *{
+    color:white;
+}
+
+* {font-family: 'Oxygen', sans-serif;}
+.hpthreeboxes h1,.hpthreeboxes p{
+    margin:auto;
+    display:table;
+    text-align: center!important;
+
+}
+.aboutimg {
+    width:100%;
+}
+
+.carousel-caption {
+    background: #080f50a6;
+    border-radius: 10px;
+    padding: 15px;
+    left: 7%;
+    max-width: 53%;
+    bottom: 50px!important;
+}
+
+.header_area {
+    background-color: #884bdf;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.carousel.slide p {
+    font-size: 30px;
+}
+.carousel.slide h3 {
+    font-size: 46px;
+}
+.bg-dark {
+    background-color: #0a0950!important;
+    padding: 25px;
+}
+a.navbar-brand {
+    color: white!important;
+    font-weight:700;
+}
+button.enquire.secondary.bold.btn.btn-warning {
+    font-size: 21px;
+    font-weight:700;
+    line-height: 34px;
+}
+a.nav-link {
+    color: white!important;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.enquire{color: #fff; font-weight: 500; display: inline-block; border: 2px solid #a883e9; height: 50px; min-width: 178px; line-height: 46px; text-align: center; border-radius: 24px 24px 24px 0px}

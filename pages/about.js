@@ -5,7 +5,8 @@ import Gallery from './components/gallery.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Breadcrumbs from './components/breadcrumbs';;
+import Breadcrumbs from './components/breadcrumbs';
+import TopInfo from './components/topinfo.js';
 
 
 export default function About() {
@@ -13,6 +14,7 @@ export default function About() {
 
         <>
             <Head><title>About Our Company</title></Head>
+            <TopInfo/>
             <Navigation />
             <Breadcrumbs pageName="About Us"/>
         

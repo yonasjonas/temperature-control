@@ -8,37 +8,27 @@ const Boxes = () => {
         <Container fluid className="footer mt-4 mb-4">
             <Container className="p-3">
                 <Row className="customsize">
-                    <Col md="4">
-                        <h4>About Us</h4>                         
+                    <Col  className="mb-4" md="4" xs="6">
+                        <h4>About Us</h4>
                         <p>Temperature Control Ltd.</p>
                         <p>Suite 8 Grange Road</p>
                         <p>Office Park, Grange Road</p>
-                        <p>Rathfarnham, Dublin 16</p>                        
+                        <p>Rathfarnham, Dublin 16</p>
                         <p>01-000-0000</p>
                         <p>info@tempcontrol.ie</p>
                     </Col>
-                    <Col md="3">
-
+                    <Col md="3" xs="6">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Product</a>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
 
                     </Col>
 
-                    <Col md="5">
+                    <Col md="5" sm="12">
                         <h4>Frontline Workers</h4>
                         <p>10% of profit goes to Matter hospital Covid-19 charity</p>
                         <a href="https://www.materfoundation.ie/"><img className="charityimage" src="matterfound.png"/></a>

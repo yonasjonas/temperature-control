@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProductRight from './components/productrighticons';
 import Breadcrumbs from './components/breadcrumbs';
+import TopInfo from './components/topinfo.js';
 
 
 export default function Product() {
@@ -16,6 +17,7 @@ export default function Product() {
             <Head>
                 <title>Infrared Temperature Measuring Terminal</title>
             </Head>
+            <TopInfo/>
             <Navigation />
 
             <Breadcrumbs pageName="aa"/>

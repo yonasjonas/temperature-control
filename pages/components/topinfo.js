@@ -8,14 +8,15 @@ const TopInfo = () => {
         <Container fluid className="container-fluid bg-secondary">
             <Container className="">
                 <Row>
-                    <Col xs="6">
-                        <a href="mailto:info@website.ie">info@website.ie</a>
-                    </Col>
-                    <Col xs="0">
+                    <Col md="6" xs="0">
 
                     </Col>
-                    <Col xs="6">
-                        <a href="tel:0035301000000">+353 1-000-00-00</a>
+                    <Col md="3" xs="6">
+                    <a href="mailto:info@website.ie">info@website.ie</a> 
+
+                    </Col>
+                    <Col md="3" xs="6">
+                        <a href="tel:0035301000000"> +353 1-000-00-00</a>
 
                     </Col>
                 </Row>

@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Button from "react-bootstrap/button"
+import Button from "react-bootstrap/Button"
 
 const API_PATH = 'http://www.webface.ie/api/send.php';
 

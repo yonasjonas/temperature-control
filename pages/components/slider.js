@@ -7,7 +7,7 @@ function ControlledCarousel() {
         <Carousel>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 customsizeh350"
                     src="1.jpg"
                     alt="Built-in Infrared Temperature Camera Face Recognition Terminal"
                 />
@@ -18,7 +18,7 @@ function ControlledCarousel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 customsizeh350"
                     src="2.jpg"
                     alt="Third slide"
                 />
@@ -32,7 +32,7 @@ function ControlledCarousel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 customsizeh350"
                     src="3.jpg"
                     alt="Third slide"
                 />

@@ -17,14 +17,14 @@ export default function Product() {
             <Head>
                 <title>Infrared Temperature Measuring Terminal</title>
             </Head>
-            <TopInfo/>
+            <TopInfo />
             <Navigation />
 
-            <Breadcrumbs pageName="aa"/>
+            <Breadcrumbs pageName="aa" />
             <Container>
                 <Row>
-                    <Col><Gallery /></Col>
-                    <Col><ProductRight /></Col>
+                    <Col lg="6"><Gallery /></Col>
+                    <Col lg="6"><ProductRight /></Col>
                 </Row>
             </Container>
             <Footer />

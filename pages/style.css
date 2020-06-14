@@ -155,6 +155,9 @@ a.nav-link {
     margin: auto;
     display: taBLE
 }
+img {
+    max-width: 100%;
+}
 nav.navbar.navbar-expand-lg.navbar-dark.bg-light.sticky-top {
     background-color: black!important;
 }

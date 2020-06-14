@@ -20,7 +20,7 @@ export default function Product() {
             <TopInfo />
             <Navigation />
 
-            <Breadcrumbs pageName="aa" />
+            <Breadcrumbs pageName="Product" />
             <Container>
                 <Row>
                     <Col lg="6"><Gallery /></Col>

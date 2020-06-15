@@ -19,13 +19,13 @@ nav.navbar {
 /* .bg-secondary { background-color: #30E3C3!important; } */
 
 .bg-secondary {
-    background-color: #FD4235!important;
+    background-color: #f0c216!important;
 }
 .container-fluid.bg-secondary.container-fluid a {
     float: right;
 }
 .color-secondary {
-    color: #FD4235!important;
+    color: #f0c216!important;
 }
 li.breadcrumb-item {
     float: left;

@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const AboutTextHP = () => {
     return (
-        <Container className="container mt-4 pt-3 p-1 border-top border-secondary">
+        <Container className="container mt-4 pt-3 p-1">
             <Row>
                 <Col md="6">
                     <h1 className="mb-3">About Temperature control</h1>

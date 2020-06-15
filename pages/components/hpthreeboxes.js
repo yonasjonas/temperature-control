@@ -7,14 +7,14 @@ import { faCoffee, faClock, faBell } from '@fortawesome/free-solid-svg-icons'
 
 const Boxes = () => {
     return (
-        <Container className="container hpthreeboxes mt-4 pt-3 mb-4 border-top border-secondary">
+        <Container className="container hpthreeboxes mt-4 mb-3 pt-3 mb-4 border-secondary">
             <Row>
                 <Col sm="4">
                     <FontAwesomeIcon className="color-secondary" icon={faCoffee} size="xs" />
                     <h3>24/7</h3>
                     <h6>Trained staff is ready to help</h6>
                 </Col>
-                <Col sm="4">
+                <Col sm="4" className="border-left border-right border-secondary">
                     <FontAwesomeIcon className="color-secondary" icon={faClock} size="xs" />
                     <h3>Local Supplier</h3>
                     <h6>We are based in Dublin</h6>

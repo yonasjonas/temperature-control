@@ -25,9 +25,9 @@ function ControlledCarousel() {
 
                 <Carousel.Caption>
                     <h3>Human body temperature detection using thermal imaging.
-                        With access control attendance function;
+                        With access control attendance function.
                     </h3>
-                    <p>Automatic alarm when human body temperature is higher than 37.3 ℃ (customisable temperature value);</p>
+                    <p>Automatic alarm when human body temperature is higher than 37.3 ℃ (customisable temperature value).</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

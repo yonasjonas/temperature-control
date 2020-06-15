@@ -1,13 +1,25 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
+
+
+    
 
 
 export default function ProductRight() {
-    return (
+    const { height, width } = useWindowDimensions();
+
+    setTimeout(() => {
+        //const screen = window.outerWidth;
+        //console.log(screen)        
+    }, 1200);
+    
+    
+    return (      
+       
+        
         <div>
             <Container>
-                <h3 className="mt-3 mb-3">Built-in Infrared Temperature Camera Face Recognition Terminal</h3>
+            {(width >= 768) ? '<h3 className="mt-3 mb-3">Built-in Infrared Temperature Camera Face Recognition Terminal</h3>' : null }
                 <p>
                     Suitable for office areas, hotels, access gates, office buildings, schools, shopping malls, shops, communities, public service and management projects and other places where face access control is required.
                 </p>

@@ -12,7 +12,7 @@ const Boxes = () => {
                 <Col sm="4">
                     <FontAwesomeIcon className="color-secondary" icon={faCoffee} size="xs" />
                     <h3>24/7</h3>
-                    <h6>Trainned staff is ready to help</h6>
+                    <h6>Trained staff is ready to help</h6>
                 </Col>
                 <Col sm="4">
                     <FontAwesomeIcon className="color-secondary" icon={faClock} size="xs" />

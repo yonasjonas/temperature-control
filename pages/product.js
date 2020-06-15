@@ -8,20 +8,18 @@ import Col from 'react-bootstrap/Col';
 import ProductRight from './components/productrighticons';
 import Breadcrumbs from './components/breadcrumbs';
 import TopInfo from './components/topinfo.js';
-import useWindowDimensions from './components/useWindowDimensions'
 
 
 
 
-export default function Product() {
+export default function Product() {    
     
     
-    const { height, width } = useWindowDimensions();
-    console.log('width: ' + {width} + ' ~ height: '  + {height})
+    //console.log('width: ' + {width} + ' ~ height: '  + {height})
     return (       
 
         <>
-        <div>width: {width} ~ height: {height}</div>
+       {/*  <div>width: {width} ~ height: {height}</div> */}
             <Head>
                 <title>Infrared Temperature Measuring Terminal</title>
             </Head>
